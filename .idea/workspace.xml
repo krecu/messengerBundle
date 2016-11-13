@@ -23,7 +23,272 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c247772a-f654-430e-b330-4292a0aa5d64" name="Default" comment="" />
+    <list default="true" id="c247772a-f654-430e-b330-4292a0aa5d64" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/configs/admin.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ApiBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ApiBundle/Entity/MailMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ApiBundle/Entity/Rule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ApiBundle/Form/MailMessageType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ApiBundle/Repository/RuleRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/DependencyInjection/Configuration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Doctrine/MessageManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/IMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/IMessageManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/MessageManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/EventListener/DynamicRelationSubscriber.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Render/ARender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Render/IRender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Render/TwigRender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/views/Default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/views/Mail/mail.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender/ASender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender/ISender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender/MailSender.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/DependencyInjection/Configuration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Sender/ISender.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Service/MessengerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/.github/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/.github/RELEASE_CHECKLIST.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/.php_cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/phpunit.xml.dist" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/src/ApiBundle/ApiBundle.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/DependencyInjection/MessengerExtension.php" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/DependencyInjection/MessengerExtension.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/MessengerBundle.php" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/MessengerBundle.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/config/routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/ApiBundle/Resources/config/services.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/ApiBundle/Resources/views/Default/index.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/tests/ApiBundle/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-boolean-field-label.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-boolean-field-label.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-boolean-field-toggle-error.gif" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-boolean-field-toggle-error.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-boolean-field-toggle.gif" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-boolean-field-toggle.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-default-backend.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-default-backend.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-design-brand-color.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-design-brand-color.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-design-color-scheme-light.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-design-color-scheme-light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-design-customization-custom-data-types.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-design-customization-custom-data-types.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-edit-view.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-edit-view.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-complex-layout.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-complex-layout.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-divider.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-divider.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-group.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-group.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-horizontal.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-horizontal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-multi-column.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-multi-column.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-section.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-section.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-vertical.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-form-vertical.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-list-view-actions.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-list-view-actions.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-list-view.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-list-view.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-listing-actions-icon-only.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-listing-actions-icon-only.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-listing-actions-label-and-icon.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-listing-actions-label-and-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-listing-actions-label-only.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-listing-actions-label-only.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-promo.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-promo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-search-view.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-search-view.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-show-view.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/easyadmin-show-view.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/wysiwyg/default-textarea.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/wysiwyg/default-textarea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/wysiwyg/default-wysiwyg.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/wysiwyg/default-wysiwyg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/wysiwyg/simple-wysiwyg.png" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/images/wysiwyg/simple-wysiwyg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/CONTRIBUTORS.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/CONTRIBUTORS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Cache/CacheManager.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Cache/CacheManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Cache/ConfigWarmer.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Cache/ConfigWarmer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ActionConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ActionConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ConfigManager.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ConfigManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ConfigPassInterface.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ConfigPassInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/DefaultConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/DefaultConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/DesignConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/DesignConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/MenuConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/MenuConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/MetadataConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/MetadataConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/NormalizerConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/NormalizerConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/PropertyConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/PropertyConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/TemplateConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/TemplateConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ViewConfigPass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ViewConfigPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Controller/AdminController.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Controller/AdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/DataCollector/EasyAdminDataCollector.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/DataCollector/EasyAdminDataCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/DependencyInjection/Compiler/EasyAdminFormTypePass.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/DependencyInjection/Compiler/EasyAdminFormTypePass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/DependencyInjection/EasyAdminExtension.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/DependencyInjection/EasyAdminExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/EasyAdminBundle.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/EasyAdminBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Event/EasyAdminEvents.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Event/EasyAdminEvents.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/EventListener/ControllerListener.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/EventListener/ControllerListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/EventListener/ExceptionListener.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/EventListener/ExceptionListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/EventListener/RequestPostInitializeListener.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/EventListener/RequestPostInitializeListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/BaseException.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/BaseException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/EntityNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/EntityNotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/FlattenException.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/FlattenException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/ForbiddenActionException.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/ForbiddenActionException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/NoEntitiesConfiguredException.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/NoEntitiesConfiguredException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/UndefinedEntityException.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Exception/UndefinedEntityException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/EventListener/EasyAdminAutocompleteSubscriber.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/EventListener/EasyAdminAutocompleteSubscriber.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Extension/EasyAdminExtension.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Extension/EasyAdminExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/AutocompleteTypeConfigurator.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/AutocompleteTypeConfigurator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/CheckboxTypeConfigurator.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/CheckboxTypeConfigurator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/CollectionTypeConfigurator.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/CollectionTypeConfigurator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/EntityTypeConfigurator.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/EntityTypeConfigurator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/IvoryCKEditorTypeConfigurator.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/IvoryCKEditorTypeConfigurator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/RequiredOptionConfigurator.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/RequiredOptionConfigurator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/TypeConfiguratorInterface.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/Configurator/TypeConfiguratorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminAutocompleteType.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminAutocompleteType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminDividerType.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminDividerType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminFormType.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminFormType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminGroupType.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminGroupType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminSectionType.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Type/EasyAdminSectionType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Util/LegacyFormHelper.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Form/Util/LegacyFormHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/LICENSE.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/README.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/ROADMAP.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/ROADMAP.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/config/form.xml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/config/form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/config/services.xml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/config/services.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/1-basic-configuration.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/1-basic-configuration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/2-design-configuration.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/2-design-configuration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/3-list-search-show-configuration.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/3-list-search-show-configuration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/4-edit-new-configuration.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/4-edit-new-configuration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/5-actions-configuration.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/5-actions-configuration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/6-menu-configuration.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/6-menu-configuration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/7-complex-dynamic-backends.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/7-complex-dynamic-backends.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/8-about.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/8-about.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/configuration-reference.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/book/configuration-reference.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/getting-started.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/getting-started.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/complex-backend-config.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/complex-backend-config.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/custom-actions.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/custom-actions.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/custom-property-options.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/custom-property-options.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/fosrestbundle-integration.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/fosrestbundle-integration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/fosuserbundle-integration.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/fosuserbundle-integration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/i18n.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/i18n.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/tips-and-tricks.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/tips-and-tricks.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/upload-files-and-images.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/upload-files-and-images.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/wysiwyg-editor.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/doc/tutorials/wysiwyg-editor.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/adminlte.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/adminlte.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/bootstrap-toggle.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/bootstrap-toggle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/bootstrap.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/easyadmin-all.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/easyadmin-all.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/easyadmin.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/easyadmin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/html5shiv.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/html5shiv.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.are-you-sure.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.are-you-sure.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.easyadmin-sticky.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.easyadmin-sticky.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.featherlight.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.featherlight.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.highlight.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.highlight.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.slimscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/jquery.waypoints.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/respond.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/select2.full.min.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/javascript/select2.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/adminlte.min.css" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/adminlte.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/bootstrap-toggle.min.css" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/bootstrap-toggle.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/bootstrap.min.css" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/easyadmin-all.min.css" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/easyadmin-all.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/featherlight.min.css" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/featherlight.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/select2-bootstrap.min.css" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/public/stylesheet/select2-bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.bg.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.bg.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.ca.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.ca.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.cs.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.cs.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.de.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.de.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.en.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.en.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.es.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.es.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.eu.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.eu.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.fr.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.fr.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.it.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.it.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.nl.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.nl.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.pl.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.pl.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.pt.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.pt.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.ro.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.ro.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.ru.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.ru.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.sl.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.sl.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.sv.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.sv.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.tr.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/EasyAdminBundle.tr.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.bg.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.bg.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.ca.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.ca.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.cs.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.cs.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.de.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.de.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.en.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.en.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.es.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.es.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.eu.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.eu.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.fr.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.fr.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.it.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.it.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.nl.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.nl.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.pl.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.pl.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.pt.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.pt.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.ro.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.ro.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.ru.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.ru.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.sl.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.sl.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.sv.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.sv.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.tr.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/translations/messages.tr.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/css/easyadmin.css.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/css/easyadmin.css.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/data_collector/easyadmin.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/data_collector/easyadmin.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/data_collector/icon.svg.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/data_collector/icon.svg.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/edit.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/exception.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/exception.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_array.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_array.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_association.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_association.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_bigint.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_bigint.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_boolean.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_boolean.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_date.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_date.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_datetime.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_datetime.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_datetimetz.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_datetimetz.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_decimal.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_decimal.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_email.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_email.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_float.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_float.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_guid.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_guid.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_id.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_id.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_image.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_image.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_integer.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_integer.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_json_array.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_json_array.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_object.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_object.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_raw.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_raw.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_simple_array.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_simple_array.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_smallint.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_smallint.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_string.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_string.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_tel.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_tel.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_text.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_text.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_time.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_time.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_toggle.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_toggle.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_url.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/field_url.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/flash_messages.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/flash_messages.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/includes/_actions.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/includes/_actions.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/includes/_delete_form.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/includes/_delete_form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/includes/_select2_widget.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/includes/_select2_widget.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/label_empty.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/label_empty.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/label_inaccessible.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/label_inaccessible.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/label_null.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/label_null.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/label_undefined.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/label_undefined.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/layout.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/list.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/menu.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/menu.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/new.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/paginator.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/paginator.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/show.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/default/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/form/bootstrap_3_horizontal_layout.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/form/bootstrap_3_horizontal_layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/form/bootstrap_3_layout.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Resources/views/form/bootstrap_3_layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Search/Autocomplete.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Search/Autocomplete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Search/Finder.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Search/Finder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Search/Paginator.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Search/Paginator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Search/QueryBuilder.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Search/QueryBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Twig/EasyAdminTwigExtension.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Twig/EasyAdminTwigExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/UPGRADE.md" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/UPGRADE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/composer.json" />
+    </list>
     <ignored path="isz-messanger.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -34,7 +299,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -43,48 +307,105 @@
     <favorites_list name="isz-messanger" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MailMessage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ApiBundle/Entity/MailMessage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+            <state relative-caret-position="180">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="e#36#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/Message.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Controller/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="604">
+              <caret line="136" column="33" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISender.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Sender/ISender.php">
+      <file leaf-file-name="ConfigManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ConfigManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="189" column="26" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessengerService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Service/MessengerService.php">
+      <file leaf-file-name="MetadataConfigPass.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/MetadataConfigPass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="366">
+              <caret line="46" column="96" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="68" column="28" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManagerInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserManagerInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicRelationSubscriber.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/EventListener/DynamicRelationSubscriber.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="18" selection-start-line="36" selection-start-column="2" selection-end-line="44" selection-end-column="18" />
+              <folding>
+                <element signature="e#55#91#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -94,28 +415,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Sender/ISender.php" />
         <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Service/SenderService.php" />
         <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Service/MessengerService.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Model/IMessage.php" />
+        <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Model/MessageManager.php" />
+        <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Doctrine/MessageManager.php" />
+        <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Model/IMessageManager.php" />
+        <option value="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Model/Message.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Render/IRender.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Render/ARender.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/DependencyInjection/MessengerExtension.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/DependencyInjection/Configuration.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/IMessageManager.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/MessageManager.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/IMessage.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender/ISender.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender/ASender.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Render/TwigRender.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/views/Mail/mail.html.twig" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Doctrine/MessageManager.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender/MailSender.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/config/configs/admin.yml" />
+        <option value="$PROJECT_DIR$/src/ApiBundle/Entity/Message.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/ApiBundle/Entity/Rule.php" />
+        <option value="$PROJECT_DIR$/src/ApiBundle/Form/MailMessageType.php" />
+        <option value="$PROJECT_DIR$/src/ApiBundle/Entity/MailMessage.php" />
+        <option value="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ConfigManager.php" />
+        <option value="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/MetadataConfigPass.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/EventListener/DynamicRelationSubscriber.php" />
+        <option value="$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/Message.php" />
+        <option value="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Controller/AdminController.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
-    <option name="y" value="24" />
+    <option name="x" value="57" />
+    <option name="y" value="27" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -142,32 +500,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
+              <option name="myItemId" value="messenger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
+              <option name="myItemId" value="messenger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
+              <option name="myItemId" value="messenger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
+              <option name="myItemId" value="messenger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
+              <option name="myItemId" value="messenger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -177,15 +535,65 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
+              <option name="myItemId" value="messenger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
+              <option name="myItemId" value="messenger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyadmin-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krecu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -199,60 +607,200 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
+              <option name="myItemId" value="messenger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Krecu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isz-messanger" />
+              <option name="myItemId" value="messenger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krecu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessengerBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krecu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessengerBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krecu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessengerBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ApiBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../docker" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ApiBundle/Entity" />
+      <recent name="$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender" />
+      <recent name="$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/views/Mail" />
+      <recent name="$PROJECT_DIR$/src/Krecu/MessengerBundle/Render" />
+      <recent name="$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Controller" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -274,8 +822,13 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -294,8 +847,13 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -391,6 +949,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -410,24 +981,38 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isz-messanger" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -479,6 +1064,26 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -500,7 +1105,39 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -594,57 +1231,14 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isz-messanger" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isz-messanger" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isz-messanger" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -717,17 +1311,31 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="isz-messanger" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
@@ -744,6 +1352,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -753,120 +1367,23 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isz-messanger" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isz-messanger" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isz-messanger" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isz-messanger" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isz-messanger" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
   </component>
@@ -884,41 +1401,44 @@
       <option name="presentableId" value="Default" />
       <updated>1478787500911</updated>
       <workItem from="1478787504198" duration="3035000" />
+      <workItem from="1478976181546" duration="5450000" />
+      <workItem from="1479054230911" duration="16129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3035000" />
+    <option name="totallyTimeSpent" value="24614000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="57" y="27" width="1855" height="1010" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3453159" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24931054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -933,38 +1453,434 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Sender/ISender.php">
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/doctrine.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/Krecu/MessengerBundle/Service/MessengerService.php">
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/doctrine-mapping/User.orm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/MessengerBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        <state relative-caret-position="521">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Render/IRender.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/DependencyInjection/MessengerExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Service/MessengerService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1641">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/MessageManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/IMessageManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="14" selection-start-column="4" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Render/ARender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/IMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Render/TwigRender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/views/Mail/mail.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender/ASender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#48#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender/ISender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="e#48#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Sender/MailSender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Doctrine/MessageManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="e#50#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/configs/admin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#52#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiBundle/Entity/Rule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="e#36#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiBundle/Form/MailMessageType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2419">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/DependencyInjection/FOSUserExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="100" column="54" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOSUserBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/DataCollector/EasyAdminDataCollector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Event/UserEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Doctrine/UserManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserManagerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Doctrine/UserListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="47" column="10" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/EventSubscriber.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/listeners.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="120" column="48" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiBundle/Entity/MailMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/EventListener/DynamicRelationSubscriber.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="18" selection-start-line="36" selection-start-column="2" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="e#55#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Krecu/MessengerBundle/Entity/Message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/MetadataConfigPass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="46" column="96" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/EventListener/ControllerListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Configuration/ConfigManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="189" column="26" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="136" column="33" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="33" />
           <folding />
         </state>
       </provider>

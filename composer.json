@@ -32,7 +32,8 @@
         "friendsofsymfony/rest-bundle": "~2.1",
         "nelmio/api-doc-bundle": "~2.13",
         "nelmio/cors-bundle": "~1.4",
-        "php-amqplib/rabbitmq-bundle": "~1.11"
+        "php-amqplib/rabbitmq-bundle": "~1.11",
+        "friendsofsymfony/user-bundle": "~2.0@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

@@ -33,7 +33,7 @@ class ConfigManager
 
     /**
      * Returns the entire backend configuration or just the configuration for
-     * the optional property path. Example: getBackendConfig('design.menu')
+     * the optional property path. Example: getBackendConfig('design.menu').
      *
      * @param string|null $propertyPath
      *
@@ -83,6 +83,7 @@ class ConfigManager
     public function getEntityConfig($entityName)
     {
         $backendConfig = $this->getBackendConfig();
+
         if (!isset($backendConfig['entities'][$entityName])) {
             throw new \InvalidArgumentException(sprintf('Entity "%s" is not managed by EasyAdmin.', $entityName));
         }
@@ -139,14 +140,9 @@ class ConfigManager
      */
     public function isActionEnabled($entityName, $view, $action)
     {
-        if ($view === $action) {
-            return true;
-        }
-
         $entityConfig = $this->getEntityConfig($entityName);
 
-        return !in_array($action, $entityConfig['disabled_actions'])
-            && array_key_exists($action, $entityConfig[$view]['actions']);
+        return !in_array($action, $entityConfig['disabled_actions']) && array_key_exists($action, $entityConfig[$view]['actions']);
     }
 
     /**

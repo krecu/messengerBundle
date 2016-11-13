@@ -1,0 +1,11 @@
+services:
+
+    # message manager service
+    messenger.message_manager.default:
+        class: Krecu\MessengerBundle\Doctrine\MessageManager
+        arguments: ["@doctrine.orm.entity_manager", "@service_container", "%messenger.model.message.class%"]
+
+    messenger.mapping_listener:
+        class: Krecu\MessengerBundle\EventListener\DynamicRelationSubscriber
+        tags:
+            - { name: doctrine.event_listener, event: loadClassMetadata }

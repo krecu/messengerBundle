@@ -21,6 +21,32 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  */
 class NormalizerConfigPass implements ConfigPassInterface
 {
+    private $defaultViewConfig = array(
+        'list' => array(
+            'dql_filter' => null,
+            'fields' => array(),
+        ),
+        'search' => array(
+            'dql_filter' => null,
+            'fields' => array(),
+        ),
+        'show' => array(
+            'fields' => array(),
+        ),
+        'form' => array(
+            'fields' => array(),
+            'form_options' => array(),
+        ),
+        'edit' => array(
+            'fields' => array(),
+            'form_options' => array(),
+        ),
+        'new' => array(
+            'fields' => array(),
+            'form_options' => array(),
+        ),
+    );
+
     /** @var ContainerInterface */
     private $container;
 
@@ -32,19 +58,20 @@ class NormalizerConfigPass implements ConfigPassInterface
     public function process(array $backendConfig)
     {
         $backendConfig = $this->normalizeEntityConfig($backendConfig);
-        $backendConfig = $this->normalizeFormConfig($backendConfig);
         $backendConfig = $this->normalizeViewConfig($backendConfig);
         $backendConfig = $this->normalizePropertyConfig($backendConfig);
         $backendConfig = $this->normalizeFormDesignConfig($backendConfig);
         $backendConfig = $this->normalizeActionConfig($backendConfig);
+        $backendConfig = $this->normalizeFormConfig($backendConfig);
         $backendConfig = $this->normalizeControllerConfig($backendConfig);
+        $backendConfig = $this->normalizeTranslationConfig($backendConfig);
 
         return $backendConfig;
     }
 
     /**
      * By default the entity name is used as its label (showed in buttons, the
-     * main menu, etc.) unless the entity config defines the 'label' option:
+     * main menu, etc.) unless the entity config defines the 'label' option:.
      *
      * easy_admin:
      *     entities:
@@ -79,8 +106,8 @@ class NormalizerConfigPass implements ConfigPassInterface
     {
         foreach ($backendConfig['entities'] as $entityName => $entityConfig) {
             if (isset($entityConfig['form'])) {
-                $entityConfig['new'] = isset($entityConfig['new']) ? array_replace($entityConfig['form'], $entityConfig['new']) : $entityConfig['form'];
-                $entityConfig['edit'] = isset($entityConfig['edit']) ? array_replace($entityConfig['form'], $entityConfig['edit']) : $entityConfig['form'];
+                $entityConfig['new'] = isset($entityConfig['new']) ? $this->mergeFormConfig($entityConfig['form'], $entityConfig['new']) : $entityConfig['form'];
+                $entityConfig['edit'] = isset($entityConfig['edit']) ? $this->mergeFormConfig($entityConfig['form'], $entityConfig['edit']) : $entityConfig['form'];
             }
 
             $backendConfig['entities'][$entityName] = $entityConfig;
@@ -100,18 +127,16 @@ class NormalizerConfigPass implements ConfigPassInterface
     private function normalizeViewConfig(array $backendConfig)
     {
         foreach ($backendConfig['entities'] as $entityName => $entityConfig) {
-            foreach (array('edit', 'list', 'new', 'search', 'show') as $view) {
-                if (!isset($entityConfig[$view])) {
-                    $entityConfig[$view] = array('fields' => array());
-                }
+            // if the original 'search' config doesn't define its own DQL filter, use the one form 'list'
+            if (!isset($entityConfig['search']) || !array_key_exists('dql_filter', $entityConfig['search'])) {
+                $entityConfig['search']['dql_filter'] = isset($entityConfig['list']['dql_filter']) ? $entityConfig['list']['dql_filter'] : null;
+            }
 
-                if (!isset($entityConfig[$view]['fields'])) {
-                    $entityConfig[$view]['fields'] = array();
-                }
-
-                if (in_array($view, array('edit', 'new')) && !isset($entityConfig[$view]['form_options'])) {
-                    $entityConfig[$view]['form_options'] = array();
-                }
+            foreach (array('edit', 'form', 'list', 'new', 'search', 'show') as $view) {
+                $entityConfig[$view] = array_replace_recursive(
+                    $this->defaultViewConfig[$view],
+                    isset($entityConfig[$view]) ? $entityConfig[$view] : array()
+                );
             }
 
             $backendConfig['entities'][$entityName] = $entityConfig;
@@ -147,7 +172,7 @@ class NormalizerConfigPass implements ConfigPassInterface
     private function normalizePropertyConfig(array $backendConfig)
     {
         foreach ($backendConfig['entities'] as $entityName => $entityConfig) {
-            foreach (array('edit', 'list', 'new', 'search', 'show') as $view) {
+            foreach (array('form', 'edit', 'list', 'new', 'search', 'show') as $view) {
                 $fields = array();
                 foreach ($entityConfig[$view]['fields'] as $i => $field) {
                     if (!is_string($field) && !is_array($field)) {
@@ -201,7 +226,7 @@ class NormalizerConfigPass implements ConfigPassInterface
         // all the previous form fields are "ungrouped". To avoid design issues,
         // insert an empty 'group' type (no label, no icon) as the first form element.
         foreach ($backendConfig['entities'] as $entityName => $entityConfig) {
-            foreach (array('edit', 'new') as $view) {
+            foreach (array('form', 'edit', 'new') as $view) {
                 $fieldNumber = 0;
                 $isTheFirstGroupElement = true;
 
@@ -224,7 +249,7 @@ class NormalizerConfigPass implements ConfigPassInterface
         }
 
         foreach ($backendConfig['entities'] as $entityName => $entityConfig) {
-            foreach (array('edit', 'new') as $view) {
+            foreach (array('form', 'edit', 'new') as $view) {
                 foreach ($entityConfig[$view]['fields'] as $fieldName => $fieldConfig) {
                     // this is a form design element instead of a regular property
                     $isFormDesignElement = !isset($fieldConfig['property']) && isset($fieldConfig['type']);
@@ -246,7 +271,7 @@ class NormalizerConfigPass implements ConfigPassInterface
 
     private function normalizeActionConfig(array $backendConfig)
     {
-        $views = array('edit', 'list', 'new', 'show');
+        $views = array('edit', 'list', 'new', 'show', 'form');
 
         foreach ($views as $view) {
             if (!isset($backendConfig[$view]['actions'])) {
@@ -296,5 +321,109 @@ class NormalizerConfigPass implements ConfigPassInterface
         }
 
         return $backendConfig;
+    }
+
+    private function normalizeTranslationConfig(array $backendConfig)
+    {
+        foreach ($backendConfig['entities'] as $entityName => $entityConfig) {
+            if (!isset($entityConfig['translation_domain'])) {
+                $entityConfig['translation_domain'] = $backendConfig['translation_domain'];
+            }
+
+            if (empty($entityConfig['translation_domain'])) {
+                throw new \InvalidArgumentException(sprintf('The value defined in the "translation_domain" option of the "%s" entity is not a valid translation domain name.', $entityName));
+            }
+
+            $backendConfig['entities'][$entityName] = $entityConfig;
+        }
+
+        return $backendConfig;
+    }
+
+    /**
+     * Merges the form configuration recursively from the 'form' view to the
+     * 'edit' and 'new' views. It processes the configuration of the form fields
+     * in a special way to keep all their configuration and allow overriding and
+     * removing of fields.
+     *
+     * @param array $parentConfig The config of the 'form' view
+     * @param array $childConfig  The config of the 'edit' and 'new' views
+     *
+     * @return array
+     */
+    private function mergeFormConfig(array $parentConfig, array $childConfig)
+    {
+        // save the fields config for later processing
+        $parentFields = isset($parentConfig['fields']) ? $parentConfig['fields'] : array();
+        $childFields = isset($childConfig['fields']) ? $childConfig['fields'] : array();
+        $removedFieldNames = $this->getRemovedFieldNames($childFields);
+
+        // first, perform a recursive replace to merge both configs
+        $mergedConfig = array_replace_recursive($parentConfig, $childConfig);
+
+        // merge the config of each field individually
+        $mergedFields = array();
+        foreach ($parentFields as $parentFieldName => $parentFieldConfig) {
+            if (isset($parentFieldConfig['property']) && in_array($parentFieldConfig['property'], $removedFieldNames)) {
+                continue;
+            }
+
+            if (!isset($parentFieldConfig['property'])) {
+                // this isn't a regular form field but a special design element (group, section, divider); add it
+                $mergedFields[$parentFieldName] = $parentFieldConfig;
+                continue;
+            }
+
+            $childFieldConfig = $this->findFieldConfigByProperty($childFields, $parentFieldConfig['property']) ?: array();
+            $mergedFields[$parentFieldName] = array_replace_recursive($parentFieldConfig, $childFieldConfig);
+        }
+
+        // add back the fields that are defined in child config but not in parent config
+        foreach ($childFields as $childFieldName => $childFieldConfig) {
+            $isFormDesignElement = !isset($childFieldConfig['property']);
+            $isNotRemovedField = isset($childFieldConfig['property']) && '-' !== substr($childFieldConfig['property'], 0, 1);
+            $isNotAlreadyIncluded = isset($childFieldConfig['property']) && !in_array($childFieldConfig['property'], array_keys($mergedFields));
+
+            if ($isFormDesignElement || ($isNotRemovedField && $isNotAlreadyIncluded)) {
+                $mergedFields[$childFieldName] = $childFieldConfig;
+            }
+        }
+
+        // finally, copy the processed field config into the merged config
+        $mergedConfig['fields'] = $mergedFields;
+
+        return $mergedConfig;
+    }
+
+    /**
+     * The 'edit' and 'new' views can remove fields defined in the 'form' view
+     * by defining fields with a '-' dash at the beginning of its name (e.g.
+     * { property: '-name' } to remove the 'name' property).
+     *
+     * @param array $fieldsConfig
+     *
+     * @return array
+     */
+    private function getRemovedFieldNames(array $fieldsConfig)
+    {
+        $removedFieldNames = array();
+        foreach ($fieldsConfig as $fieldConfig) {
+            if (isset($fieldConfig['property']) && '-' === substr($fieldConfig['property'], 0, 1)) {
+                $removedFieldNames[] = substr($fieldConfig['property'], 1);
+            }
+        }
+
+        return $removedFieldNames;
+    }
+
+    private function findFieldConfigByProperty(array $fieldsConfig, $propertyName)
+    {
+        foreach ($fieldsConfig as $fieldConfig) {
+            if (isset($fieldConfig['property']) && $propertyName === $fieldConfig['property']) {
+                return $fieldConfig;
+            }
+        }
+
+        return null;
     }
 }

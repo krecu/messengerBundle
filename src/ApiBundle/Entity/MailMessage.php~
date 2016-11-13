@@ -1,0 +1,23 @@
+<?php
+
+namespace ApiBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+use Krecu\MessengerBundle\Entity\Message;
+
+/**
+ * MailMessage
+ * @ORM\Table(name="mail_message")
+ * @ORM\Entity(repositoryClass="ApiBundle\Repository\RuleRepository")
+ */
+class MailMessage extends Message
+{
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Rule", inversedBy="message")
+     * @ORM\JoinColumn(name="rule_id", referencedColumnName="id")
+     */
+    private $rule;
+
+}
+
